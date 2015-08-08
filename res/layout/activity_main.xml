@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="org.barisakkurt.top250films.MainActivity"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textViewTotalResults"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+    	android:animationCache="false" /> 
+    	
+    <!--<com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        ads:adUnitId="@string/banner_ad_unit_id_main" >
+    	</com.google.android.gms.ads.AdView> -->
+
+</LinearLayout>

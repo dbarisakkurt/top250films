@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">En İyi 250 Film</string>
+    <string name="action_about">Hakkında</string>
+    <string name="action_roadmap">Yol Haritası</string>
+    <string name="roadmap_message">a</string>
+    <string name="about_message">a</string>
+    <string name="poster">Film Poster</string>
+    <string name="title_activity_film_detail">Film Bilgisi</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="about_text">2015 - D. Barış Akkurt tarafından yapılmıştır. IMDB ile resmi bir ilgisi yoktur. Resmi IMDB uygulaması değildir.</string>
+    <string name="roadmap_text">Ayarlar sekmesi\nBaşrol oyuncu bilgisi\nÜlke bilgisi\nListede arama\nListe filtreleme\nİlerleme bilgisi\nResme tıklayınca büyük görme\nSosyal medya</string>
+    <string name="banner_ad_unit_id_main">ca-app-pub-5034114315046217/1417587062</string>
+    <string name="banner_ad_unit_id_detail">ca-app-pub-5034114315046217/2894320263</string>
+
+</resources>

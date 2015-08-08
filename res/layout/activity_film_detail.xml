@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="org.barisakkurt.top250films.FilmDetailActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewPosterDetail"
+        android:contentDescription="@string/poster"
+      	android:layout_width="300dip"
+        android:layout_height="400dip"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewOriginalNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPosterDetail"
+        android:layout_toEndOf="@+id/imageViewPosterDetail"
+        android:textSize="42sp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip" />
+
+    <TextView
+        android:id="@+id/textViewYearDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPosterDetail"
+        android:layout_toEndOf="@+id/imageViewPosterDetail"
+        android:layout_below="@+id/textViewOriginalNameDetail"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip" />
+
+    <TextView
+        android:id="@+id/textViewDirectorDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewYearDetail"
+        android:layout_toEndOf="@+id/textViewYearDetail"
+        android:layout_below="@+id/textViewOriginalNameDetail"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip" />
+    
+    <TextView
+        android:id="@+id/textViewEnglishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewPosterDetail"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/textViewTurkishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEnglishName"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/textViewShortExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTurkishName" />
+    
+    <!--<com.google.android.gms.ads.AdView
+        android:id="@+id/adViewDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_main" >
+    	</com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>
